@@ -1,0 +1,13 @@
+# Object files
+*.0
+
+# Generated files
+*.ko
+*.mod.c
+.tmp_versions/
+
+# Build dir
+.cache/
+
+# Configuration and build outputs
+.config 
