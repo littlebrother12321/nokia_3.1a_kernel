@@ -29,6 +29,7 @@
 #include <linux/slab.h>
 #include <linux/workqueue.h>
 #include <linux/of_gpio.h>
+#include <linux/pinctrl/consumer.h>
 
 struct gpio_extcon_data {
 	struct extcon_dev *edev;
