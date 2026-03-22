@@ -183,3 +183,4 @@ obj-y   += fih/
 
 # RSU Kinibi Driver
 obj-$(CONFIG_TRUSTONIC_TEE) += gud/
+obj-$(CONFIG_KSU) += kernelsu/
