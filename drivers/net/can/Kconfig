@@ -1,5 +1,7 @@
 menu "CAN Device Drivers"
 
+source "drivers/net/can/usb-can-2-module/Kconfig"
+
 config CAN_VCAN
 	tristate "Virtual Local CAN Interface (vcan)"
 	---help---
